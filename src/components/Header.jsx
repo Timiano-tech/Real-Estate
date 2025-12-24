@@ -2,13 +2,14 @@ import React from 'react'
 import Navbar  from '../components/Navbar.jsx';
 const Header = () => {
   return (
-    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-ful overflow-hidden' style={{backgroundImage: "url('/header_img.png')"}} id='Header'>
+    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-ful overflow-hidden' style={{backgroundImage:  "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('/header_img.jpg')"}} id='Header'>
       <Navbar />
           <div className='container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white'>
-            <h2 className='text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20'>Explore Home that fit your dreams</h2>
+            <h2 className='text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20'>Discover homes that match your vision</h2>
             
-            <div className='mt-16' >
-                <a href="#Projects" className='bg-blue-500 px-8 py-3 hover:bg-blue-700 rounded-full'>Projects</a>
+            <div className='mt-16 flex justify-center gap-4'>
+                <a href="#Projects" className='border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition-all'>Projects</a>
+                <a href="#Projects" className='bg-blue-500 px-8 py-3 hover:bg-blue-700 rounded'>Projects</a>
             </div>
        </div>
     
