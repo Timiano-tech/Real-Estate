@@ -26,7 +26,8 @@ const About = () => {
                         <p>Happy Clients</p>
                     </div>
                 </div>
-
+                <p className="my-10 max-w-lg">Our journey began with a simple mission: to help individuals and families find their dream homes. Over the years, we have grown into a trusted name in the real estate industry, known for our integrity, professionalism, and personalized approach.</p>
+                <button className="bg-blue-600 text-white rounded py-2 px-8">Learn more</button>
             </div>
        </div>
     </div>
