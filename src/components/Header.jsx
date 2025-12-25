@@ -8,7 +8,7 @@ const Header = () => {
             <h2 className='text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20'>Discover homes that match your vision</h2>
             
             <div className='mt-16 flex justify-center gap-4'>
-                <a href="#Projects" className='border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition-all'>Projects</a>
+                <a href="#Contact" className='border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition-all'>Contact Us</a>
                 <a href="#Projects" className='bg-blue-500 px-8 py-3 hover:bg-blue-700 rounded'>Projects</a>
             </div>
        </div>
