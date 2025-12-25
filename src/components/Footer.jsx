@@ -1,12 +1,13 @@
-import { assets } from "../assets/assets"
-
+/* import { assets } from "../assets/assets"
+ */
    
 const Footer = () => {
   return (
     <div className="pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 overflow-hidden" id="Footer">
       <div className="container mx-auto flex flex-col md:flex-row justify-bete">
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
-            <img src={assets.logo_dark} alt="" />
+            {/* <img src={assets.logo_dark} alt="" /> */}
+            <h2 className="text-2xl text-blue-600 font-semibold">Tims RealEstate</h2>
             <p className="text-gray-400 mt-4" >Real Estat</p>
         </div>
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
@@ -22,10 +23,10 @@ const Footer = () => {
         <div className="w-full md:w-1/3">
             <h3 className="text-white">Contact Us</h3>
             <ul className="mt-4 text-gray-400">
-                <li className="mb-2">123 Real Estate Street</li>
-                <li className="mb-2">City, State 12345</li>
-                <li className="mb-2">Email: info@realestate.com</li>
-                <li className="mb-2">Phone: (123) 456-7890</li>
+                <li className="mb-2">24, Timiano Estate</li>
+                <li className="mb-2">Ikoyi, Lagos State</li>
+                <li className="mb-2">Email: timiajayi729@gmail.com</li>
+                <li className="mb-2">Phone: (234) 7051-3709</li>
             </ul>   
         </div>
       </div>

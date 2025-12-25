@@ -20,7 +20,8 @@ const Navbar = () => {
   return (
     <div className="absolute top-0 left-0 w-full z-10">
      <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-16 lg:px-28 bg-transparent">
-        <img src={assets.logo} alt="" />
+        {/* <img src={assets.logo} alt="" /> */}
+        <h2 className="font-semibold text-white text-2xl">Tims RealEstate</h2>
         <ul className="hidden md:flex gap-8 text-white font-medium">
             <a href="#Header" className="cursor-pointer hover:text-gray-400">Home</a>
             <a href="#About" className="cursor-pointer hover:text-gray-400">About</a>
