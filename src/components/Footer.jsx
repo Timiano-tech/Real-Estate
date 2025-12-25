@@ -1,0 +1,38 @@
+import { assets } from "../assets/assets"
+
+   
+const Footer = () => {
+  return (
+    <div className="pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 overflow-hidden" id="Footer">
+      <div className="container mx-auto flex flex-col md:flex-row justify-bete">
+        <div className="w-full md:w-1/3 mb-8 md:mb-0">
+            <img src={assets.logo_dark} alt="" />
+            <p className="text-gray-400 mt-4" >Real Estat</p>
+        </div>
+        <div className="w-full md:w-1/3 mb-8 md:mb-0">
+            <h3 className="text-white">Quick Links</h3>
+            <ul className="flex flex-col gap-2 text-gray-400">
+                <li className="mb-2"><a href="#Header" className="hover:text-white">Home</a></li>
+                <li className="mb-2"><a href="#About" className="hover:text-white">About</a></li>
+                <li className="mb-2"><a href="#Projects" className="hover:text-white">Projects</a></li>
+                <li className="mb-2"><a href="#Testimonials" className="hover:text-white">Testimonials</a></li>
+            </ul>
+        </div>
+
+        <div className="w-full md:w-1/3">
+            <h3 className="text-white">Contact Us</h3>
+            <ul className="mt-4 text-gray-400">
+                <li className="mb-2">123 Real Estate Street</li>
+                <li className="mb-2">City, State 12345</li>
+                <li className="mb-2">Email: info@realestate.com</li>
+                <li className="mb-2">Phone: (123) 456-7890</li>
+            </ul>   
+        </div>
+      </div>
+      <hr className="border-white"/>
+       <p className="mb-4 md:mb-0 text-white text-center text-sm">&copy; {new Date().getFullYear()} Real Estate Company. All rights reserved.</p>
+    </div>
+  )
+}
+
+export default Footer
