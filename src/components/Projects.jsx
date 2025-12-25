@@ -9,7 +9,7 @@ const Projects = () => {
 
 
   useEffect(() => {
-    const updateItemsToShow = () => {
+    const updateItemsToShow = () => { 
       if (window.innerWidth >= 1024) {
           setItemsToShow(projectsData.length)
       
@@ -70,7 +70,7 @@ const Projects = () => {
                <h2 className="text-xl font-semibold text-gray-800">
                   {project.title}
                 </h2>
-                <p className="text-blue-600 font-medium">{project.price} <span></span>  {project.location}</p>
+                <p className="text-blue-500 text-sm">{project.price} <span className="px-1">|</span>  {project.location}</p>
             
             </div>
           </div>
