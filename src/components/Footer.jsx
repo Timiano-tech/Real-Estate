@@ -29,11 +29,19 @@ const Footer = () => {
                 <li className="mb-2">Phone: (234) 7051-3709</li>
             </ul>   
         </div>
+        <div>
+        <h3 className="text-white mt-6 md:mt-0">Subscribe to our Newsletter</h3>
+            <input type="email" placeholder="Enter Your Email" className="p-2 rounded bg-gray-800 text-gray-400 border border-gray-700 focus:outline-none w-full md:w-auto"/>
+            <button className="mb-5 mt-2 md:mt-2 bg-blue-600 text-white rounded py-2 px-4">
+                Subscribe
+            </button>
+        </div>
       </div>
       <hr className="border-white"/>
-       <p className="mb-4 md:mb-0 text-white text-center text-sm">&copy; {new Date().getFullYear()} Real Estate Company. All rights reserved.</p>
+       <p className="mb-4 mt-3 md:mb-0 text-gray-600 text-center text-sm">&copy; {new Date().getFullYear()} Timiano Real Estate Company. All rights reserved.</p>
     </div>
   )
 }
 
 export default Footer
+ 
